@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Eudoxus Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .primary-gradient {
+    position: absolute;
+    width: 200px;
+    height: 238px;
+    top: 0;
+    background: #ca00ff;
+    filter: blur(175px);
+  }
+
+  .secondary-gradient {
+    position: absolute;
+    width: 200px;
+    height: 238px;
+    top: -6rem;
+    right: 0px;
+    background: #7aebfb;
+    filter: blur(190px);
+  }
+}
