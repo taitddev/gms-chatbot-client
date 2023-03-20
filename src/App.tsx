@@ -35,8 +35,8 @@ function App() {
       <div className="secondary-gradient"></div>
 
       {/* Header */}
-      <header className="uppercase font-bold  text-2xl text-center mb-3">
-        GMS Chatbot
+      <header className="uppercase font-bold text-3xl text-center mb-3">
+        GM Chatbot
       </header>
       <main
         className="h-[90%] overflow-auto w-full max-w-4xl min-w-[20rem] py-8 px-4 self-center

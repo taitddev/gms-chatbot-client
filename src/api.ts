@@ -1,6 +1,5 @@
 export const fetchResponse = async (chat: any) => {
   try {
-    // after depoloyment you should change the fetch URL below
     const response = await fetch(import.meta.env.VITE_API_ENDPOINT, {
       method: "POST",
       headers: {
